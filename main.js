@@ -4,34 +4,34 @@ const readline = require('readline').createInterface({
   });
   
   readline.question("Qual o nome do herói? ", (name) => {
-    readline.question("Qual o xp do herói? ", (lvl) => {
-      let xp = "Ferro";
+    readline.question("Qual o xp do herói? ", (xp) => {
+      let lvl = "Ferro";
   
-      let lvlNum = parseInt(lvl);
+      let xpNum = parseInt(xp);
   
-      if (lvlNum < 1000) {
-        console.log(`O Herói de nome ${name} está no nível de ${xp}`);
-      } else if (lvlNum >= 1001 && lvlNum <= 2000) {
-        xp = "Bronze";
-        console.log(`O Herói de nome ${name} está no nível de ${xp}`);
-      } else if (lvlNum >= 2001 && lvlNum <= 5000) {
-        xp = "Prata";
-        console.log(`O Herói de nome ${name} está no nível de ${xp}`);
-      } else if (lvlNum >= 5001 && lvlNum <= 7000) {
-        xp = "Ouro";
-        console.log(`O Herói de nome ${name} está no nível de ${xp}`);
-      } else if (lvlNum >= 7001 && lvlNum <= 8000) {
-        xp = "Platina";
-        console.log(`O Herói de nome ${name} está no nível de ${xp}`);
-      } else if (lvlNum >= 8001 && lvlNum <= 9000) {
-        xp = "Ascendente";
-        console.log(`O Herói de nome ${name} está no nível de ${xp}`);
-      } else if (lvlNum >= 9001 && lvlNum <= 10000) {
-        xp = "Imortal";
-        console.log(`O Herói de nome ${name} está no nível de ${xp}`);
-      } else if (lvlNum >= 10001) {
-        xp = "Radiante";
-        console.log(`O Herói de nome ${name} está no nível de ${xp}`);
+      if (xpNum < 1000) {
+        console.log(`O Herói de nome ${name} está no nível de ${lvl}`);
+      } else if (xpNum >= 1001 && xpNum <= 2000) {
+        lvl = "Bronze";
+        console.log(`O Herói de nome ${name} está no nível de ${lvl}`);
+      } else if (xpNum >= 2001 && xpNum <= 5000) {
+        lvl = "Prata";
+        console.log(`O Herói de nome ${name} está no nível de ${lvl}`);
+      } else if (xpNum >= 5001 && xpNum <= 7000) {
+        lvl = "Ouro";
+        console.log(`O Herói de nome ${name} está no nível de ${lvl}`);
+      } else if (xpNum >= 7001 && xpNum <= 8000) {
+        lvl = "Platina";
+        console.log(`O Herói de nome ${name} está no nível de ${lvl}`);
+      } else if (xpNum >= 8001 && xpNum <= 9000) {
+        lvl = "Ascendente";
+        console.log(`O Herói de nome ${name} está no nível de ${lvl}`);
+      } else if (xpNum >= 9001 && xpNum <= 10000) {
+        lvl = "Imortal";
+        console.log(`O Herói de nome ${name} está no nível de ${lvl}`);
+      } else if (xpNum >= 10001) {
+        lvl = "Radiante";
+        console.log(`O Herói de nome ${name} está no nível de ${lvl}`);
       }
   
       readline.close();
