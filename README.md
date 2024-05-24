@@ -14,4 +14,4 @@ Dê um nome e um xp para o seu herói e descubra em qual nível ele está!
 Para rodar o projeto:
 1. Clone o repositório para a sua máquina local;
 2. Execute o código com `node main.js`;
-3. Insira as informações necessárias `nome e xp`
+3. Insira as informações necessárias `nome e xp`;
